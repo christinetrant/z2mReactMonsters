@@ -7,6 +7,7 @@ body {
   font-style: normal;
     background: linear-gradient(to bottom, #e0c3fc, #8ec5fc);
   text-align: center;
+  min-height: 100vh;
 }
 .app-title {
   margin-bottom: 20px;
