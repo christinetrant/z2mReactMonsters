@@ -13,7 +13,6 @@ const App = () => {
     }, []);
 
     const onSearchChange = (e) => {
-        console.log(e.target.value);
         setSearchString(e.target.value.toLowerCase());
     };
 

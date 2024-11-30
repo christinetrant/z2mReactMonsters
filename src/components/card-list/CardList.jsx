@@ -3,7 +3,6 @@ import './card-list.style.css'
 import Card from "../card/Card";
 
 const CardList = ({items}) => {
-  console.log("🚀 ~ CardList ~ items:", items);
   return (
       <div className="card-list">
         {items.map((item, index) => {
