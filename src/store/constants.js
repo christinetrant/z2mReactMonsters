@@ -1,1 +1,5 @@
 export const CHANGE_SEARCH_FIELD = "search/CHANGE_SEARCH_FIELD";
+
+export const FETCH_ROBOTS_PENDING = "search/FETCH_ROBOTS_PENDING";
+export const FETCH_ROBOTS_SUCCESS = "search/FETCH_ROBOTS_SUCCESS";
+export const FETCH_ROBOTS_ERROR = "search/FETCH_ROBOTS_ERROR";
