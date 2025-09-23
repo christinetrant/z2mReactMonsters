@@ -9,7 +9,7 @@ const Card = ({item}: CardProps) => {
   const {id, name, email} = item;
   return (
       <div className="card">
-              <img src={`https://robohash.org/${id}?set=set2`} alt={name} />
+              <img src={`https://robohash.org/${id}?set=set7`} alt={name} />
               <h2 key={id}>{name}</h2>
               <p>{email}</p>
             </div>
