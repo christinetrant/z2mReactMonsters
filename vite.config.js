@@ -5,6 +5,6 @@ export default defineConfig({
 	plugins: [react()],
 	build: {
 		base: "/z2mReactMonsters/",
-		outDir: "build", // CRA's default build output
+		// outDir: "build", // CRA's default build output
 	},
 });
